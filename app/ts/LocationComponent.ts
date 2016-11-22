@@ -1,1 +1,0 @@
-import {Component} from '@angular/core';@Component({    selector:'location-component',    styleUrls:['app/css/location.component.css'],    templateUrl:'../app/templates/location.component.html'})export class LocationComponent{    pageTitle:string = 'Locations';    constructor(){        console.log('location component init');    }}
