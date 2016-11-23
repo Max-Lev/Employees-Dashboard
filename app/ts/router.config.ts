@@ -1,0 +1,1 @@
+import {NgModule,Component} from '@angular/core';const Path:any = [    {path: 'new'}];@NgModule({    imports:[name],    //exports:['zzz']})@Component({    selector:'routerPath',    template:'',    providers:[]})export class routerPath{    path = Path;    name='max';}
